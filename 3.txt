@@ -1,0 +1,14 @@
+The API server should ideally be hosted on a high-quality connection and be well-built on high-quality hardware .
+The idea is that delay can originate from a variety of sources,therefore its crucial to account for both growth and those sources while developing1:
+Calculating the metrics that each API response time test tool collects
+2:Resource simulate the load and capture speed to determine how they may affect reaction time.
+3:Additional data gathered when tracking user loads.
+4:Due to the high resource use,computing the metrics collected by each instrument lengthens the response time.
+5:The two tools architecture might differ.
+Response time = HttpDispatcher:average_call_time+((WebFronted/Queue:call_count*WebFronted/Queue:average_response_time)/HttpDis
+patcher:call_count)
+Response time is the amount of time it takes for one system node to react to anothe's request
+The average amount of time required for each round-trip request is known as the Average Response time in performance testing.
+Peak Response Time aids in identifying which parts may be problamatic .
+The percentage of faulty requests is shown via a mathematical calculation called the error rate
+The three most important response time values are 0.1,1.0 and 10 seconds.
